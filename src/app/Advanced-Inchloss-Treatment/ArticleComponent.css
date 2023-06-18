@@ -1,0 +1,51 @@
+.inch-loss-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.inch-loss-clinic .clinic-feature {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+
+.inch-loss-clinic .clinic-feature-description {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+.inch-loss-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.inch-loss-clinic {
+  flex: 0 1 55%;
+}
+
+.inch-loss-section figure {
+  flex: 0 1 40%;
+}
+
+.inch-loss-clinic figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 440px) {
+  .inch-loss-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .inch-loss-section img {
+    width: 330px;
+  }
+
+  .inch-loss-clinic {
+    flex: 0 1 40%;
+  }
+}

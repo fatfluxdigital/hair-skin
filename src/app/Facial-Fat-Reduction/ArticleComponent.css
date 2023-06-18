@@ -1,0 +1,66 @@
+.facial-fat-reduction-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.facial-fat-reduction {
+  flex: 0 1 55%;
+}
+
+.facial-fat-reduction-section figure {
+  flex: 0 1 40%;
+}
+
+.facial-fat-reduction h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.facial-fat-reduction .treatment-description {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+.facial-fat-reduction .treatment {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem 0.4rem 0rem;
+}
+
+.techniques-list {
+  padding-left: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.benefits-list {
+  padding-left: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.clinic-info {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  .facial-fat-reduction-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .facial-fat-reduction-section img {
+    width: 330px;
+  }
+
+  .facial-fat-reduction {
+    flex: 0 1 40%;
+    margin-bottom: 1.5rem;
+  }
+}

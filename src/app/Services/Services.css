@@ -1,0 +1,110 @@
+/* colors styles */
+:root {
+  --primary: #ffffff;
+  --secondary: #042b44;
+  --active: #042b44;
+  --dark-black-text: #313030;
+  --light-black-text: #d2d2d2;
+  --secondary-fade-out: #0a3d5db2;
+}
+/* services styles */
+.services__section figure {
+  border: 2px solid #3f7292ae;
+  background-color: #3f7292ae;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.services__section figure {
+  flex: 0 1 15%;
+}
+.services__section figure img {
+  width: 100%;
+  border-radius: 50%;
+}
+.services__section section {
+  display: flex;
+  justify-content: space-around;
+}
+.services__section article {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.services__section article p {
+  margin-top: 1rem;
+}
+.services__section {
+  padding: 4rem 0rem;
+}
+.services__heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+.overflow__services__section{
+    overflow: scroll;
+}
+.overflow__services__section article{
+    margin: 1rem 2rem;
+}
+
+.scroll__arrows button {
+  background-color: var(--secondary);
+  color: #ffffff;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.scroll__arrows button:nth-child(2){
+  margin-left:0.5rem;
+}
+.scroll__arrows button:hover {
+  background-color: var(--secondary-fade-out);
+}
+.services__header{
+  display: flex;
+  justify-content: space-between;
+}
+.scroll__arrows{
+  display: flex;
+  height:3rem;
+}
+.services__main__headings{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+.second__service{
+  margin: 3rem 0;
+}
+.services__masked{
+  display: flex;
+  flex-direction: column;
+}
+/* media queries */
+@media screen and (max-width:440px){
+  .scroll__arrows button {
+    background-color: var(--secondary);
+    color: #ffffff;
+    padding: 0.5rem 0rem 2rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 2rem;
+  }
+  .services__masked:nth-child(2){
+    margin: 5rem 0;
+  }
+}

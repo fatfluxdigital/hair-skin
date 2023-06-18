@@ -1,0 +1,55 @@
+.lip-coloring-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.lip-coloring-clinic .clinic-feature {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+
+.lip-coloring-clinic .clinic-feature-description,
+.benefits-list {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.8;
+}
+
+.lip-coloring-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.lip-coloring-clinic {
+  flex: 0 1 55%;
+}
+
+.lip-coloring-section figure {
+  flex: 0 1 40%;
+}
+
+.lip-coloring-clinic figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  .lip-coloring-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .lip-coloring-section img {
+    width: 330px;
+  }
+
+  .lip-coloring-clinic {
+    flex: 0 1 40%;
+  }
+}

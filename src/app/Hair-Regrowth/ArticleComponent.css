@@ -1,0 +1,49 @@
+.hair-regrowth-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.hair-regrowth-clinic {
+  flex: 0 1 55%;
+}
+
+.hair-regrowth-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.hair-regrowth-clinic .clinic-feature {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+
+.hair-regrowth-clinic .clinic-feature-description {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+.hair-regrowth-clinic .treatment-options {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  .hair-regrowth-section {
+    flex-direction: column;
+    width: 360px;
+  }
+  .hair-regrowth-clinic {
+    flex: 0 1 40%;
+  }
+}

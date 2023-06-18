@@ -1,0 +1,39 @@
+.permanent-eyebrows-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.permanent-eyebrows-section figure {
+  flex: 0 1 40%;
+  margin-right: 2rem;
+}
+
+.permanent-eyebrows-section img {
+  width: 100%;
+}
+
+.permanent-eyebrows-clinic {
+  flex: 0 1 60%;
+}
+
+.permanent-eyebrows-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0;
+}
+
+.permanent-eyebrows-clinic .clinic-feature,
+.permanent-eyebrows-clinic .clinic-feature-description {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  margin: 0.5rem 0;
+}
+
+.permanent-eyebrows-clinic .clinic-feature-description,
+.permanent-eyebrows-clinic .benefits-list {
+  font-size: 0.8rem;
+  margin: 0.4rem 0;
+  line-height: 1.8;
+}

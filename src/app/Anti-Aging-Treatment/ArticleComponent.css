@@ -1,0 +1,56 @@
+.anti-aging-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.anti-aging-clinic .clinic-feature {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+
+.anti-aging-clinic .clinic-feature-description,
+.benefits-list {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.8;
+}
+
+.anti-aging-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.anti-aging-clinic {
+  flex: 0 1 55%;
+}
+
+.anti-aging-section figure {
+  flex: 0 1 40%;
+}
+
+.anti-aging-clinic figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  /* Add responsive styles here */
+}
+
+@media screen and (max-width: 440px) {
+  .anti-aging-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .anti-aging-section img {
+    width: 330px;
+  }
+
+  .anti-aging-clinic {
+    flex: 0 1 40%;
+  }
+}

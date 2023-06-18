@@ -1,0 +1,56 @@
+.skin-tightening-services h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0;
+}
+
+.skin-tightening-services .services-subheading {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.skin-tightening-services .services-description,
+.skin-tightening-services .services-list {
+  font-size: 0.8rem;
+  margin: 0.4rem 0;
+  line-height: 1.8;
+}
+
+.skin-tightening-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.skin-tightening-services {
+  flex: 0 1 55%;
+}
+
+.skin-tightening-section figure {
+  flex: 0 1 40%;
+}
+
+.skin-tightening-section figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  /* Add responsive CSS here */
+}
+
+@media screen and (max-width: 440px) {
+  .skin-tightening-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .skin-tightening-section img {
+    width: 330px;
+  }
+
+  .skin-tightening-services {
+    flex: 0 1 40%;
+  }
+}

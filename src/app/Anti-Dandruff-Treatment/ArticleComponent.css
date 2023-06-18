@@ -1,0 +1,41 @@
+.anti-dandruff-treatment-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.anti-dandruff-treatment-clinic {
+  flex: 0 1 55%;
+}
+
+.anti-dandruff-treatment-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.anti-dandruff-treatment-clinic .clinic-feature {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+
+.anti-dandruff-treatment-clinic .clinic-feature-description {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  .anti-dandruff-treatment-section {
+    flex-direction: column;
+    width: 360px;
+  }
+  .anti-dandruff-treatment-clinic {
+    flex: 0 1 40%;
+  }
+}

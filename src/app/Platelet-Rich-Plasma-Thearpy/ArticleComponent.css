@@ -1,0 +1,41 @@
+.prp-therapy-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.prp-therapy-clinic {
+  flex: 0 1 55%;
+}
+
+.prp-therapy-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.prp-therapy-clinic h3 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin: 0.6rem 0rem;
+}
+
+.prp-therapy-clinic .clinic-feature-description {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  .prp-therapy-section {
+    flex-direction: column;
+    width: 360px;
+  }
+  .prp-therapy-clinic {
+    flex: 0 1 40%;
+  }
+}

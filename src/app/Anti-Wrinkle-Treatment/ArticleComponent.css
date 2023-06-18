@@ -1,0 +1,56 @@
+.anti-wrinkle-treatment-center h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0;
+}
+
+.anti-wrinkle-treatment-center .services-subheading {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.anti-wrinkle-treatment-center .services-description,
+.anti-wrinkle-treatment-center .services-list {
+  font-size: 0.8rem;
+  margin: 0.4rem 0;
+  line-height: 1.8;
+}
+
+.anti-wrinkle-treatment-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.anti-wrinkle-treatment-center {
+  flex: 0 1 55%;
+}
+
+.anti-wrinkle-treatment-section figure {
+  flex: 0 1 40%;
+}
+
+.anti-wrinkle-treatment-section figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  /* Add responsive CSS here */
+}
+
+@media screen and (max-width: 440px) {
+  .anti-wrinkle-treatment-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .anti-wrinkle-treatment-section img {
+    width: 330px;
+  }
+
+  .anti-wrinkle-treatment-center {
+    flex: 0 1 40%;
+  }
+}

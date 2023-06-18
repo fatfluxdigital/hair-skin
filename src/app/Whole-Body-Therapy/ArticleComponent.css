@@ -1,0 +1,61 @@
+.full-body-therapy-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.full-body-therapy-clinic {
+  flex: 0 1 55%;
+}
+
+.full-body-therapy-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.full-body-therapy-clinic h3 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.full-body-therapy-clinic .clinic-feature-description {
+  font-size: 1rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+.full-body-therapy-clinic ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.full-body-therapy-clinic ul li {
+  margin-bottom: 0.4rem;
+}
+
+.full-body-therapy-section figure {
+  flex: 0 1 40%;
+}
+
+.full-body-therapy-section figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 440px) {
+  .full-body-therapy-section {
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .full-body-therapy-section img {
+    width: 330px;
+  }
+
+  .full-body-therapy-clinic {
+    flex: 0 1 40%;
+  }
+}

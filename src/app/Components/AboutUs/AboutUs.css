@@ -1,0 +1,45 @@
+.aboutus__section{
+    background-color: #ECEFF0;
+    padding:2rem 0;
+}
+.aboutus__section section{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.aboutus__section article{
+    flex: 0 1 52%;
+}
+.aboutus__section p{
+    font-weight: 700;
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+.aboutus__section figure{
+    flex: 0 1 45%;
+    height: 300px;
+}
+.aboutus__section figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutus__heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color:var(--secondary)
+}
+.aboutus__crux{
+    margin: 3rem 0;
+}
+
+/* media queries */
+@media screen and (max-width:440px){
+    .aboutus__section section{
+        flex-direction: column;
+    }
+    .aboutus__section figure{
+        margin-top:2rem;
+    }
+}

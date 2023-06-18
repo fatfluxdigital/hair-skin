@@ -1,0 +1,66 @@
+.non-surgical-liposuction-clinic h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin: 0.8rem 0rem;
+}
+
+.non-surgical-liposuction-clinic .clinic-feature {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+.benefits-list li{
+  font-size: 0.7rem;
+}
+
+.non-surgical-liposuction-clinic .clinic-feature-description {
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+  line-height: 1.6;
+}
+
+.liposuction-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.liposuction-clinic {
+  flex: 0 1 55%;
+}
+
+.liposuction-section figure {
+  flex: 0 1 40%;
+}
+
+.liposuction-clinic figure img {
+  width: 100%;
+}
+
+.liposuction-techniques {
+  margin-top: 0.8rem;
+  padding-left: 1.2rem;
+}
+
+.benefits-list {
+  margin-top: 0.8rem;
+  padding-left: 1.2rem;
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 440px) {
+  .liposuction-section {
+    flex-direction: column;
+    width: 360px;
+  }
+  .liposuction-section img {
+    width: 330px;
+  }
+  .liposuction-clinic {
+    flex: 1 1 100%;
+    margin-top: 2rem;
+  }
+}
