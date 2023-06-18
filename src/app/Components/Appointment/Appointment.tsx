@@ -1,10 +1,6 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import "./Appointment.css";
-import { MenuItem } from "@mui/material";
-import Button from "@mui/material/Button";
-import ReCAPTCHA from "react-google-recaptcha";
+
 
 export default function Appointment() {
   return (
@@ -31,7 +27,7 @@ export default function Appointment() {
         </div>
         <div className="appointment__center">
           <div className="appointment__center-content mt-2">
-            <ReCAPTCHA sitekey="YOUR_SITE_KEY" />
+            {/* <ReCAPTCHA sitekey="YOUR_SITE_KEY" /> */}
           </div>
         </div>
       </div>
