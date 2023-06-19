@@ -11,7 +11,7 @@ function About() {
   return (
     <section>
       <Navbar/>
-      <AboutHeroSection/>
+      <AboutHeroSection imageUrl="aboutus/aboutusfull.jpg"/>
       <Appointment/>
       <AboutUs/>
       <Footer/>

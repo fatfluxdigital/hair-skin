@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/Weight/Cryolipolysis.jpg"/>
       <ArticleComponent/>
       <span className=""></span>
       <Services/>

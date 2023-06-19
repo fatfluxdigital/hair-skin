@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/Skin/Face Lifting Treatment.jpg"/>
       <ArticleComponent/>
       <span className=""></span>
       <Services/>

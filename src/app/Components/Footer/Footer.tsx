@@ -8,9 +8,7 @@ function Footer() {
         <div className="footer__wrapper">
           <nav>
             <ul>
-              <a>
                 <li>Weight</li>
-              </a>
               <a href="/Whole-Body-Weightloss">
                 <li>Whole Body Weightloss</li>
               </a>
@@ -32,90 +30,86 @@ function Footer() {
               <a href="/Non-surgical-Liposuction">
                 <li>Non surgical Liposuction</li>
               </a>
-              <a>
+              <a href="/NoCryolipolysis">
                 <li>Cryolipolysis</li>
               </a>
-              <a>
+              <a href="/Cryo-Therapy">
                 <li>Cryo Therapy</li>
               </a>
-              <a>
+              <a href="/Fat-Freezing-Technology">
                 <li>Fat Freezing Technology</li>
               </a>
-              <a>
+              <a href="/Facial-Fat-Reduction">
                 <li>Facial Fat Reduction</li>
               </a>
             </ul>
           </nav>
           <nav>
             <ul>
-              <a>
                 <li>Hair</li>
-              </a>
-              <a>
+              <a href="/Non-surgical-Liposuction">
                 <li>Anti Hairloss Treatment</li>
               </a>
-              <a>
+              <a href="/Non-surgical-Liposuction">
                 <li>Anti Dandruff Treatment</li>
               </a>
-              <a>
+              <a href="/Non-surgical-Liposuction">
                 <li>Hair Regrowth</li>
               </a>
-              <a>
+              <a href="/Non-surgical-Liposuction">
                 <li>Platelet Rich Plasma Thearpy</li>
               </a>
-              <a>
+              <a href="/Non-surgical-Liposuction">
                 <li>Hair Transplantation</li>
               </a>
             </ul>
           </nav>
           <nav>
             <ul>
-              <a>
                 <li>Skin</li>
-              </a>
-              <a>
+              <a href="/Skin-Tightening">
                 <li>Skin Tightening</li>
               </a>
-              <a>
+              <a href="/Anti-Wrinkle-Treatment">
                 <li>Anti Wrinkle Treatment</li>
               </a>
-              <a>
+              <a href="/Anti-Aging-Treatment">
                 <li>Anti Aging Treatment</li>
               </a>
-              <a>
+              <a href="/Advanced-Facial-Glow">
                 <li>Advanced Facial Glow</li>
               </a>
-              <a>
+              <a href="/HydraFacial-Treatment">
                 <li>HydraFacial Treatment</li>
               </a>
-              <a>
+              <a href="/Permanent-Eyebrows">
                 <li>Permanent Eyebrows</li>
               </a>
-              <a>
+              <a href="/Permanent-Lip-colouring">
                 <li>Permanent Lip colouring</li>
               </a>
-              <a>
+              <a href="/Face-lift">
                 <li>Face lift</li>
               </a>
-              <a>
+              <a href="/V-shape-Facial-Lift">
                 <li>V shape Facial Lift</li>
               </a>
             </ul>
           </nav>
           <nav>
             <ul>
-              <a>
+              <a href="/aboutus">
                 <li>About us</li>
               </a>
-              <a>
+              <a href="/contactus">
                 <li>Contact Us</li>
               </a>
-              <a>
+              <a href="/contactus">
                 <li>Book An Appointment</li>
               </a>
-              <a>
+              {/* <a href="/Non-surgical-Liposuction">
                 <li>Customer Stories</li>
-              </a>
+              </a> */}
             </ul>
             <ul className="flex alignItemsCenter iconsGroup">
               <a>

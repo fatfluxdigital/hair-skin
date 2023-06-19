@@ -28,7 +28,7 @@ function AboutUs() {
             </p>
           </article>
           <figure>
-            <img src="https://placehold.co/600x350/png" alt="fat flex" />
+            <img src="aboutus/aboutus.jpg" alt="fat flex" />
           </figure>
         </section>
       </div>

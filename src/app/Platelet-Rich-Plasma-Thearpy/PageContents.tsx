@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/Hair/Platelet-Rich Plasma Therapy.jpg"/>
       <ArticleComponent/>
       <span className=""></span>
       <Services/>

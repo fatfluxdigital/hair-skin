@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/Weight/Body Contouring Treatment.jpg"/>
       <ArticleComponent/>
       <span className=""></span>
       <Services/>

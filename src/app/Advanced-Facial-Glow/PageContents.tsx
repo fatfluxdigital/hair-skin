@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/Skin/Advanced Facial Glow Therapy.jpg" />
       <ArticleComponent/>
       <span className=""></span>
       <Services/>

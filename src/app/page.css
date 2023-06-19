@@ -464,6 +464,9 @@ a {
 #toggle {
   display: none;
 }
+figure img{
+  object-fit: cover;
+}
 /* media queries */
 @media screen and (max-width: 1200px) {
 }
@@ -617,3 +620,4 @@ a {
 }
 @media screen and (max-width: 320px) {
 }
+

@@ -3,13 +3,13 @@ import { Fragment, useEffect, useState } from "react";
 
 const slides = [
   {
-    eachSlide: "url(assets/slider1.jpeg)",
+    eachSlide: "url(slider/HairTransplantTreatment.jpg)",
   },
   {
-    eachSlide: "url(https://placehold.co/1600x500.png)",
+    eachSlide: "url(slider/SkinLighteningTreatment.jpg)",
   },
   {
-    eachSlide: "url(https://placehold.co/1600x500.png)",
+    eachSlide: "url(slider/WholeBodyWeightloss.jpg)",
   },
 ];
 

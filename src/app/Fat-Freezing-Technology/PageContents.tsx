@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/Weight/Fat Freezing Technology.jpg"/>
       <ArticleComponent/>
       <span className=""></span>
       <Services/>

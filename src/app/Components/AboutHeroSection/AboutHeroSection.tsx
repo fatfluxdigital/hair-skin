@@ -1,10 +1,11 @@
 import React from 'react'
 import "../../page.css"
-function AboutHeroSection() {
+function AboutHeroSection(props:any) {
+  const {imageUrl} = props;
   return (
     <section>
         <div className='aboutus_hero'>
-            <img src="https://placehold.co/1600x350/png" alt="hero image"/>
+            <img src={imageUrl} alt="hero about image"/>
         </div>
     </section>
   )

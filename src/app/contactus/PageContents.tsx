@@ -12,7 +12,7 @@ function PageContents() {
   return (
     <section>
       <Navbar />
-      <AboutHeroSection />
+      <AboutHeroSection imageUrl="hero/contactus.jpg"/>
       <Locations/>
       <ContactusForm/>
       <AboutUs />
