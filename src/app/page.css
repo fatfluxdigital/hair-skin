@@ -485,6 +485,9 @@ figure img{
 @media screen and (max-width: 540px) {
 }
 @media screen and (max-width: 440px) {
+  .cross__icon{
+    display: block;
+  }
   .container {
     max-width: 360px;
   }
