@@ -49,18 +49,32 @@
 }
 
 @media screen and (max-width: 540px) {
+  .liposuction-section {
+    flex-direction: column;
+  }
+  .liposuction-section img {
+    width: 100%;
+  }
+  .liposuction-clinic {
+    flex: 0 1 50%;
+    margin-top: 2rem;
+  }
+  .liposuction-section figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-  .liposuction-section {
-    flex-direction: column;
-    width: 360px;
+  html {
+    font-size: 8px;
   }
-  .liposuction-section img {
-    width: 330px;
-  }
-  .liposuction-clinic {
-    flex: 1 1 100%;
-    margin-top: 2rem;
+  .container {
+    width: 400px;
   }
 }

@@ -37,20 +37,33 @@
 }
 
 @media screen and (max-width: 540px) {
-  /* Add responsive CSS here */
-}
-
-@media screen and (max-width: 440px) {
   .skin-tightening-section {
     flex-direction: column;
-    width: 360px;
   }
 
   .skin-tightening-section img {
-    width: 330px;
+    width: 100%;
   }
 
   .skin-tightening-services {
     flex: 0 1 40%;
+  }
+  .container {
+    width: 500px;
+  }
+  .skin-tightening-section figure {
+    margin-top: 2rem;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

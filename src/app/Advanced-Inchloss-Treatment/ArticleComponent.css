@@ -34,18 +34,40 @@
 .inch-loss-clinic figure img {
   width: 100%;
 }
-
-@media screen and (max-width: 440px) {
+p{
+  text-align: justify;
+}
+@media screen and (max-width: 540px) {
   .inch-loss-section {
     flex-direction: column;
-    width: 360px;
   }
-
+  html {
+    font-size: 12px;
+  }
   .inch-loss-section img {
-    width: 330px;
+    width: 100%;
   }
-
   .inch-loss-clinic {
     flex: 0 1 40%;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+  }
+  .container{
+    width: 500px;
+  }
+  .inch-loss-section figure{
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container{
+    width: 400px;
   }
 }

@@ -37,13 +37,8 @@
 }
 
 @media screen and (max-width: 540px) {
-  /* Add responsive CSS here */
-}
-
-@media screen and (max-width: 440px) {
   .anti-wrinkle-treatment-section {
     flex-direction: column;
-    width: 360px;
   }
 
   .anti-wrinkle-treatment-section img {
@@ -52,5 +47,30 @@
 
   .anti-wrinkle-treatment-center {
     flex: 0 1 40%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .anti-wrinkle-treatment-section img {
+    width: 100%;
+  }
+  .container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

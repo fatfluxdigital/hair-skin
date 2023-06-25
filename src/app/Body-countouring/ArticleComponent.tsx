@@ -115,7 +115,7 @@ function ArticleComponent() {
 
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Weight/Body countouring.jpg"
               alt="body contouring image"
             />
           </figure>

@@ -1,13 +1,8 @@
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
 .v-shaped-facial-lifting-section {
-  background-color: #f9f9f9;
-  padding: 2rem;
-  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
 }
 
 .v-shaped-facial-lifting-treatments h2 {
@@ -31,3 +26,30 @@
   list-style-type: disc;
   padding-left: 1.5rem;
 }
+
+.v-shaped-facial-lifting-treatments{
+  flex: 0 1 55%;
+}
+.v-shaped-facial-lifting-section figure {
+  flex: 0 1 40%;
+}
+
+.v-shaped-facial-lifting-section figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 440px) {
+  .container {
+    width: 360px;
+  }
+  html {
+    font-size: 8px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .full-body-therapy-section img {
+    width: 330px;
+  }
+}
+

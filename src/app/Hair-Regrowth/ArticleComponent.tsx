@@ -106,7 +106,7 @@ function ArticleComponent() {
 
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Hair/Hair Regrowth.jpg"
               alt="Hair Regrowth Treatment"
             />
           </figure>

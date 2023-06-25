@@ -36,14 +36,31 @@
 }
 
 @media screen and (max-width: 540px) {
-}
-
-@media screen and (max-width: 440px) {
   .hair-regrowth-section {
     flex-direction: column;
-    width: 360px;
   }
   .hair-regrowth-clinic {
     flex: 0 1 40%;
+  }
+  .hair-regrowth-clinic figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+  .hair-regrowth-section img {
+    width: 100%;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

@@ -52,12 +52,6 @@ function Navbar() {
                       <li>Call us at +91 9666564441</li>
                     </a>
                   </div>
-                  <div className="flex alignItemsCenter ml-2">
-                    <img src="icons/email.svg" width="20" />
-                    <a href="mailto:customercare@fatflux.com">
-                      <li>customercare@fatflux.com</li>
-                    </a>
-                  </div>
                 </ul>
                 <ul className="flex alignItemsCenter iconsGroup">
                   <li>
@@ -81,6 +75,9 @@ function Navbar() {
             <input id="toggle" type="checkbox" />
 
             <div className="second__nav nav-bar">
+              <label className="cross__icon">
+                <img src="icons/cross.svg" alt="cross icon" width="20px"/>
+              </label>
               <ul className="flex justifyContentBetween alignItemsCenter">
                 <a href="/">
                   <li>HOME</li>

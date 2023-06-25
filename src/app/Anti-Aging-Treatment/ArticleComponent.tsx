@@ -117,7 +117,7 @@ function ArticleComponent() {
           </article>
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/skin/Anti Aging Treatment.jpg"
               alt="anti-aging image"
             />
           </figure>

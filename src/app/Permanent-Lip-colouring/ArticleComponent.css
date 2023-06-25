@@ -37,19 +37,31 @@
 }
 
 @media screen and (max-width: 540px) {
+  .lip-coloring-section {
+    flex-direction: column;
+  }
+  .lip-coloring-section img {
+    width: 100%;
+  }
+  .lip-coloring-clinic {
+    flex: 0 1 40%;
+  }
+  .lip-coloring-section figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-  .lip-coloring-section {
-    flex-direction: column;
-    width: 360px;
+  html {
+    font-size: 8px;
   }
-
-  .lip-coloring-section img {
-    width: 330px;
-  }
-
-  .lip-coloring-clinic {
-    flex: 0 1 40%;
+  .container {
+    width: 400px;
   }
 }

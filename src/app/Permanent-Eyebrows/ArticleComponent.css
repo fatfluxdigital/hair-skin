@@ -37,3 +37,40 @@
   margin: 0.4rem 0;
   line-height: 1.8;
 }
+
+@media screen and (max-width: 540px) {
+  .permanent-eyebrows-section {
+    flex-direction: column;
+  }
+  html {
+    font-size: 12px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .permanent-eyebrows-section img {
+    width: 100%;
+  }
+  .advanced-facial-glow-clinic {
+    flex: 0 1 40%;
+  }
+  .permanent-eyebrows-section figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
+  }
+}

@@ -83,6 +83,12 @@ function ArticleComponent() {
               turn back the hands of time.
             </p>
           </article>
+          <figure className="advanced__facial">
+            <img
+              src="assets/skin/Face lift.jpg"
+              alt="facial glow image"
+            />
+          </figure>
         </section>
       </div>
     </section>

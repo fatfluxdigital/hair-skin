@@ -45,17 +45,31 @@
   width: 100%;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
   .full-body-therapy-section {
     flex-direction: column;
-    width: 360px;
   }
-
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
   .full-body-therapy-section img {
-    width: 330px;
+    width: 100%;
   }
-
-  .full-body-therapy-clinic {
+  .full-body-therapy-clinic{
     flex: 0 1 40%;
+  }
+  .full-body-therapy-clinic figure {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

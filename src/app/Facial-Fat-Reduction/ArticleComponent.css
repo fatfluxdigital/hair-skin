@@ -47,20 +47,40 @@
 }
 
 @media screen and (max-width: 540px) {
-}
-
-@media screen and (max-width: 440px) {
   .facial-fat-reduction-section {
     flex-direction: column;
-    width: 360px;
   }
-
+  html {
+    font-size: 12px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
   .facial-fat-reduction-section img {
-    width: 330px;
+    width: 100%;
   }
 
   .facial-fat-reduction {
     flex: 0 1 40%;
     margin-bottom: 1.5rem;
+  }
+  .container {
+    width: 500px;
+  }
+  .facial-fat-reduction-section figure{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

@@ -87,6 +87,12 @@ function ArticleComponent() {
               confidence with a V-Shaped Facial Lift.
             </p>
           </article>
+          <figure>
+            <img
+              src="https://placehold.co/550x400/png"
+              alt="full body therapy image"
+            />
+          </figure>
         </section>
       </div>
     </section>

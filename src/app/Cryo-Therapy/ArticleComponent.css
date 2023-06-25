@@ -35,19 +35,32 @@
   margin-top: 0.8rem;
   padding-left: 1.2rem;
 }
-
-@media screen and (max-width: 540px) {
+p {
+  text-align: justify;
 }
-
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
   .cryotherapy-section {
     flex-direction: column;
-    width: 360px;
   }
   .cryotherapy-section img {
-    width: 330px;
+    width: 100%;
   }
   .cryotherapy-clinic {
     flex: 0 1 40%;
+  }
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

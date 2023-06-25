@@ -39,19 +39,35 @@
   margin-top: 0.8rem;
   padding-left: 1.2rem;
 }
-
-@media screen and (max-width: 540px) {
+p {
+  text-align: justify;
 }
-
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
   .body-fat-reduction-section {
     flex-direction: column;
-    width: 360px;
   }
   .body-fat-reduction-section img {
-    width: 330px;
+    width: 100%;
   }
   .body-fat-reduction-clinic {
     flex: 0 1 40%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .advanced-facial-glow-clinic figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

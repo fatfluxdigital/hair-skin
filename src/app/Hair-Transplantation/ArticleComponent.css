@@ -34,14 +34,31 @@
 }
 
 @media screen and (max-width: 540px) {
-}
-
-@media screen and (max-width: 440px) {
   .hair-transplant-section {
     flex-direction: column;
-    width: 360px;
   }
   .hair-transplant-clinic {
     flex: 0 1 40%;
+  }
+  .hair-transplant-section figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
+  .hair-transplant-section img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

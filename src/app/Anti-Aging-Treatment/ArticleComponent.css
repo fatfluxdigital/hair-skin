@@ -3,7 +3,9 @@
   color: var(--secondary);
   margin: 0.8rem 0rem;
 }
-
+p{
+  text-align: justify;
+}
 .anti-aging-clinic .clinic-feature {
   color: var(--secondary);
   font-size: 1.2rem;
@@ -25,7 +27,7 @@
 }
 
 .anti-aging-clinic {
-  flex: 0 1 55%;
+  flex: 0 1 50%;
 }
 
 .anti-aging-section figure {
@@ -36,21 +38,43 @@
   width: 100%;
 }
 
+
 @media screen and (max-width: 540px) {
-  /* Add responsive styles here */
+  .anti-aging-section {
+    flex-direction: column;
+  }
+  .anti-aging-section img {
+    width: 300px;
+  }
+  .anti-aging-clinic {
+    flex: 0 1 40%;
+  }
+  html {
+    font-size: 8px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .advanced-facial-glow-section img{
+    width: 100%;
+  }
+  .container {
+    width: 500px;
+  }
+  .anti-aging-section figure {
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 440px) {
-  .anti-aging-section {
-    flex-direction: column;
-    width: 360px;
+  html {
+    font-size: 8px;
   }
-
-  .anti-aging-section img {
-    width: 330px;
-  }
-
-  .anti-aging-clinic {
-    flex: 0 1 40%;
+  .container {
+    width: 400px;
   }
 }

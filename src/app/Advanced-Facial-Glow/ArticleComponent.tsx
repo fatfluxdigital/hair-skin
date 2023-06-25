@@ -91,9 +91,9 @@ function ArticleComponent() {
             </p>
           </article>
 
-          <figure>
+          <figure className="advanced__facial">
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/skin/Advanced Facial Glow.jpg"
               alt="facial glow image"
             />
           </figure>

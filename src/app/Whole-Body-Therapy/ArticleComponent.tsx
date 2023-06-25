@@ -80,7 +80,7 @@ function ArticleComponent() {
 
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Weight/Whole Body Therapy.jpg"
               alt="full body therapy image"
             />
           </figure>

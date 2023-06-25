@@ -88,6 +88,12 @@ function ArticleComponent() {
               helping you embrace life with renewed self-assurance!
             </p>
           </article>
+          <figure className="advanced__facial">
+            <img
+              src="assets/skin/Advanced Facial Glow.jpg"
+              alt="facial glow image"
+            />
+          </figure>
         </section>
       </div>
     </section>

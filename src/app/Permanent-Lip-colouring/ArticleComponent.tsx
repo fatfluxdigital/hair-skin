@@ -92,7 +92,7 @@ function ArticleComponent() {
           </article>
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/skin/Permanent Lip colouring.jpg"
               alt="lip coloring image"
             />
           </figure>

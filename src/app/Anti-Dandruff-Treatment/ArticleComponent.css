@@ -26,16 +26,43 @@
   margin: 0.4rem 0rem;
   line-height: 1.6;
 }
-
-@media screen and (max-width: 540px) {
+p{
+  text-align: justify;
 }
-
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
   .anti-dandruff-treatment-section {
     flex-direction: column;
-    width: 360px;
   }
   .anti-dandruff-treatment-clinic {
     flex: 0 1 40%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .container{
+    width: 500px;
+  }
+  .anti-dandruff-treatment-section img{
+    width: 100%;
+  }
+  .anti-dandruff-treatment-section figure{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+
+  html {
+    font-size: 8px;
+  }
+  .container{
+    width: 400px;
   }
 }

@@ -96,7 +96,7 @@ function ArticleComponent() {
           </article>
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Weight/Whole Body Weightloss.jpg"
               alt="weight loss image"
             />
           </figure>

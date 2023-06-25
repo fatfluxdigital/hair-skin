@@ -45,7 +45,7 @@ function ArticleComponent() {
         </p>
       </article>
       <figure>
-        <img src="https://placehold.co/550x400/png" alt="Skin Tightening Image" />
+        <img src="assets/skin/Skin Tightening.jpg" alt="Skin Tightening Image" />
       </figure>
     </section>
   </div>

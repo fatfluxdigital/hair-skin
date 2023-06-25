@@ -35,22 +35,42 @@
 .advanced-facial-glow-clinic figure img {
   width: 100%;
 }
-
+p {
+  text-align: justify;
+}
 @media screen and (max-width: 540px) {
-  /* Add styles for screens with a maximum width of 540px */
+  .advanced-facial-glow-section {
+    flex-direction: column;
+  }
+  html {
+    font-size: 12px;
+  }
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .advanced-facial-glow-section img {
+    width: 100%;
+  }
+  .advanced-facial-glow-clinic {
+    flex: 0 1 40%;
+  }
+  .advanced-facial-glow-clinic figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-  .advanced-facial-glow-section {
-    flex-direction: column;
-    width: 360px;
+  html {
+    font-size: 8px;
   }
-
-  .advanced-facial-glow-section img {
-    width: 330px;
-  }
-
-  .advanced-facial-glow-clinic {
-    flex: 0 1 40%;
+  .container {
+    width: 400px;
   }
 }

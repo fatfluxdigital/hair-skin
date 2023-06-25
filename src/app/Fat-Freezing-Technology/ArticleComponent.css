@@ -35,19 +35,36 @@
   margin-top: 0.8rem;
   padding-left: 1.2rem;
 }
-
-@media screen and (max-width: 540px) {
+p {
+  text-align: justify;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
   .fat-freezing-section {
     flex-direction: column;
-    width: 360px;
   }
   .fat-freezing-section img {
     width: 330px;
   }
   .fat-freezing-technology {
     flex: 0 1 40%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .container {
+    width: 500px;
+  }
+  .fat-freezing-section figure {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

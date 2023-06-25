@@ -61,7 +61,16 @@ const Dropdown: React.FC<DropdownProps> = (props) => {
         className="dropdown__toggle dropdown__list-item"
       >
         {props.title}
-        <i className="fa fa-angle-down" aria-hidden="true"></i>
+        {open ? (
+          <img src="icons/arrowDown.svg" alt="arrow down" width="15px" className="logo__display__web" />
+        ) : (
+          <img src="icons/arrowUp.svg" alt="arrow up" width="15px" className="logo__display__web" />
+        )}
+        {open ? (
+          <img src="icons/arrowDownWhite.svg" alt="arrow down" width="15px" />
+        ) : (
+          <img src="icons/arrowUpWhite.svg" alt="arrow up" width="15px" />
+        )}
       </div>
       <ul
         className={`absolute__dropdown dropdown__list ${

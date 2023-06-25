@@ -28,14 +28,31 @@
 }
 
 @media screen and (max-width: 540px) {
-}
-
-@media screen and (max-width: 440px) {
   .prp-therapy-section {
     flex-direction: column;
-    width: 360px;
+  }
+  html {
+    font-size: 12px;
   }
   .prp-therapy-clinic {
     flex: 0 1 40%;
+  }
+  .prp-therapy-section img {
+    width: 100%;
+  }
+  .container {
+    width: 500px;
+  }
+  .prp-therapy-clinic figure {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

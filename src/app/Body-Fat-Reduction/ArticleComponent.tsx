@@ -118,7 +118,7 @@ function ArticleComponent() {
           </article>
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Weight/Body Fat Reduction.jpg"
               alt="body fat reduction image"
             />
           </figure>

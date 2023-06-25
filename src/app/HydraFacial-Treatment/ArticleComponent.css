@@ -37,20 +37,31 @@
 }
 
 @media screen and (max-width: 540px) {
-  /* Add responsive styles here */
+  .hydrafacial-treatment-section {
+    flex-direction: column;
+  }
+  .hydrafacial-treatment-section img {
+    width: 100%;
+  }
+  .hydrafacial-treatment-clinic {
+    flex: 0 1 40%;
+  }
+  .hydrafacial-treatment-section figure {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-  .hydrafacial-treatment-section {
-    flex-direction: column;
-    width: 360px;
+  html {
+    font-size: 8px;
   }
-
-  .hydrafacial-treatment-section img {
-    width: 330px;
-  }
-
-  .hydrafacial-treatment-clinic {
-    flex: 0 1 40%;
+  .container {
+    width: 400px;
   }
 }

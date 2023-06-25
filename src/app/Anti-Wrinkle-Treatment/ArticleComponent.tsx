@@ -39,48 +39,48 @@ function ArticleComponent() {
             <h3 className="services-subheading">
               Why Choose Our Anti-Wrinkle Treatment Clinic
             </h3>
-            <ul className="services-list">
-              <li>
+            <div className="services-list">
+              <p className="services-description">
                 Expert Professionals: Our team consists of experienced
                 professionals who specialize in anti-wrinkle treatments. They
                 have extensive knowledge and expertise in delivering exceptional
                 results.
-              </li>
-              <li>
+              </p>
+              <p className="services-description">
                 Personalized Consultation: We understand that each individual's
                 skin and wrinkle concerns are unique. During your consultation,
                 our experts will evaluate your skin condition, discuss your
                 desired outcomes, and create a personalized treatment plan
                 tailored to your specific needs.
-              </li>
-              <li>
+              </p>
+              <p className="services-description">
                 Advanced Techniques: We utilize advanced anti-wrinkle techniques
                 to provide optimal results. From Botox and dermal fillers to
                 non-invasive treatments like chemical peels and
                 microdermabrasion, we offer a range of options to address
                 different types of wrinkles and skin conditions.
-              </li>
-              <li>
+              </p>
+              <p className="services-description">
                 Natural-Looking Results: Our goal is to help you achieve
                 natural-looking results that enhance your features and leave you
                 looking refreshed. Our treatments are carefully tailored to
                 complement your unique facial characteristics.
-              </li>
-              <li>
+              </p>
+              <p className="services-description">
                 Comfort and Care: We prioritize your comfort and well-being
                 throughout the entire treatment process. Our clinic provides a
                 relaxing and welcoming environment, and our caring staff will be
                 there to support you every step of the way.
-              </li>
-              <li>
+              </p>
+              <p className="services-description">
                 Comprehensive Aftercare: Our commitment to your satisfaction
                 doesn't end with the treatment. We provide detailed aftercare
                 instructions and follow-up appointments to monitor your progress
                 and ensure optimal results. Our team is always available to
                 address any concerns or questions you may have during your
                 recovery period.
-              </li>
-            </ul>
+              </p>
+            </div>
 
             <p className="services-description">
               Take the First Step Towards Smoother, More Youthful-Looking Skin
@@ -104,7 +104,7 @@ function ArticleComponent() {
 
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/skin/Anti Wrinkle Treatment.jpg"
               alt="anti wrinkle treatment"
             />{" "}
           </figure>

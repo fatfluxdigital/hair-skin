@@ -101,10 +101,9 @@ function ArticleComponent() {
               confident you.
             </p>
           </article>
-
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Weight/Figure Correction.jpg"
               alt="figure correction image"
             />
           </figure>

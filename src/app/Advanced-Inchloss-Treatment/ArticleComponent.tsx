@@ -108,7 +108,7 @@ function ArticleComponent() {
           </article>
 
           <figure>
-            <img src="https://placehold.co/550x400/png" alt="inch loss image" />
+            <img src="assets/Weight/Advanced Inchloss Treatment.jpg" alt="inch loss image" />
           </figure>
         </section>
       </div>

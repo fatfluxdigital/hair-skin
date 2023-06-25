@@ -74,7 +74,7 @@ function ArticleComponent() {
           </article>
           <figure>
             <img
-              src="https://placehold.co/550x400/png"
+              src="assets/Hair/Anti Hairloss Treatment.jpg"
               alt="Hair Loss Treatment"
             />
           </figure>

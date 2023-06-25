@@ -34,18 +34,41 @@
 .figure-correction-clinic figure img {
   width: 100%;
 }
-
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
   .figure-correction-section {
     flex-direction: column;
-    width: 360px;
   }
-
+  .aboutus_hero {
+    max-width: 100%;
+  }
+  .aboutus_hero img {
+    width: 100%;
+    margin-top: 10rem;
+  }
   .figure-correction-section img {
-    width: 330px;
+    width: 100%;
   }
-
   .figure-correction-clinic {
     flex: 0 1 40%;
+  }
+  .container {
+    width: 500px;
+  }
+  html {
+    font-size: 12px;
+  }
+  .figure-correction-section img {
+    width: 100%;
+  }
+  .figure-correction-section figure {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    width: 400px;
   }
 }

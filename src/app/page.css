@@ -147,7 +147,7 @@ body {
 /* custom css */
 
 .container {
-  max-width: 1400px;
+  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
   padding: 0 32px;
@@ -449,7 +449,7 @@ a {
   position: absolute;
   z-index: 100;
   background-color: #f8f8f8 !important;
-  width: 150px !important;
+  width: 15rem !important;
 }
 .large__container {
   max-width: 1400px;
@@ -466,6 +466,12 @@ a {
 }
 figure img{
   object-fit: cover;
+}
+.dropdown__toggle img{
+  margin: 0.5rem 0 0 0.5rem;
+}
+.cross__icon{
+  display: none;
 }
 /* media queries */
 @media screen and (max-width: 1200px) {
@@ -493,6 +499,7 @@ figure img{
   }
   .second__nav {
     padding-top: 0;
+    overflow-y: scroll;
   }
   .bt-1 {
     border: none;
@@ -544,27 +551,42 @@ figure img{
   }
   .second__nav li {
     color: var(--primary) !important;
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: 4rem;
   }
-  .second__nav li:nth-child(3),
-  .second__nav li:nth-child(4),
-  .second__nav li:nth-child(5) {
-    display: none;
+  .second__nav  li{
+    background-color: transparent!important;
+  }
+  .dropdown li{
+    color: rgb(204, 204, 204) !important;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .dropdown li:hover{
+    color: rgb(189, 189, 189) !important;
   }
   .absolute__dropdown {
-    display: none;
+    position: unset;
+    z-index: 0;
+    background-color: transparent !important;
+    color: var(--primary);
+    overflow-y: scroll;
+  }
+  .absolute__dropdown li {
+    border: 0 !important;
+  }
+  .absolute__dropdown li {
+    font-size: 2rem !important;
   }
   .logo {
     position: relative;
-    z-index: 1001;
+    z-index: 1001 !important;
   }
   .navbar__section {
     position: fixed;
     z-index: 1000;
     background-color: var(--primary);
     max-width: 100%;
-    /* width:412px; */
     width: 100%;
     border-bottom: 1px solid rgba(171, 171, 171, 0.786);
   }
@@ -614,6 +636,21 @@ figure img{
   .aboutus_hero img{
     width: 100%;
     margin-top: 10rem;
+  }
+  .cross__icon{
+    position: absolute;
+    right:6rem;
+    top:4rem;
+  }
+  .absolute__dropdown {
+    background-color: transparent !important;
+    width: 30rem !important;
+  }
+  .second__nav li:hover{
+    color:#ffffff
+  }
+  .aboutus_hero img{
+    margin-top: 8rem !important;
   }
 }
 @media screen and (max-width: 360px) {
