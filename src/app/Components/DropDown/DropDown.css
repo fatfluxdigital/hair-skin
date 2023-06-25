@@ -64,9 +64,7 @@
 .logo__display__mobile{
   display: none;
 }
-.dropdown__toggle img{
-  width: 1.5rem;
-}
+
 
 @media screen and (max-width: 540px) {
   .logo__display__web{
@@ -74,5 +72,8 @@
   }
   .logo__display__mobile{
     display: block;
+  }
+  .dropdown__toggle img{
+    width: 1.5rem;
   }
 }
