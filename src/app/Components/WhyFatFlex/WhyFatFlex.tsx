@@ -5,7 +5,7 @@ function WhyFatFlex() {
   return (
     <section className="whyfatflex__section">
       <div className="container">
-        <h3 className="whyfatflex__heading">Why FatFlex ?</h3>
+        <h3 className="whyfatflex__heading">Why FatFlux ?</h3>
         <section className="whyfatflux__sub__section">
           <article>
             <figure>
