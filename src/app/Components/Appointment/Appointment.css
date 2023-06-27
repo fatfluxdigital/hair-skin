@@ -84,3 +84,13 @@ button{
     margin-top: -10rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .container {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 280px;
+  }
+}
