@@ -66,100 +66,147 @@ function Services() {
             ref={containerOneRef}
           >
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Whole Body Weightloss.jpg"
-                  alt="Whole Body Weightloss"
-                />
-              </figure>
-              <p>Whole Body Weightloss</p>
+              <a href="/Body-Fat-Reduction">
+                <figure>
+                  <img
+                    src="assets/Weight/Body Fat Reduction.jpg"
+                    alt="Body-Fat-Reduction"
+                  />
+                </figure>
+              </a>
+              <a href="/Body Fat Reduction">
+                <p>Body Fat Reduction</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Advanced Inchloss Treatment.jpg"
-                  alt="Advanced Inchloss Treatment"
-                />
-              </figure>
-              <p>Advanced Inchloss Treatment</p>
+              <a href="/Non-surgical-Liposuction">
+                <figure>
+                  <img
+                    src="assets/Weight/Non surgical Liposuction.jpg"
+                    alt="Non surgical Liposuction"
+                  />
+                </figure>
+              </a>
+              <a href="/Non-surgical-Liposuction">
+                <p>Non surgical Liposuction</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Figure Correction.jpg"
-                  alt="Figure Correction"
-                />
-              </figure>
-              <p>Figure Correction</p>
+              <a href="/Cryolipolysis">
+                <figure>
+                  <img
+                    src="assets/Weight/Cryolipolysis.jpg"
+                    alt="Cryolipolysis"
+                  />
+                </figure>
+              </a>
+              <a href="/Cryolipolysis">
+                <p>Cryolipolysis</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Body countouring.jpg"
-                  alt="Body countouring"
-                />
-              </figure>
-              <p>Body countouring</p>
+              <a href="/Cryo-Therapy">
+                <figure>
+                  <img
+                    src="assets/Weight/Cryo Therapy.jpg"
+                    alt="Cryo Therapy"
+                  />
+                </figure>
+              </a>
+              <a href="/Cryo-Therapy">
+                <p>Cryo Therapy</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Whole Body Therapy.jpg"
-                  alt="Whole Body Therapy"
-                />
-              </figure>
-              <p>Whole Body Therapy</p>
+              <a href="/Whole-Body-Weightloss">
+                <figure>
+                  <img
+                    src="assets/Weight/Whole Body Weightloss.jpg"
+                    alt="Whole Body Weightloss"
+                  />
+                </figure>
+              </a>
+              <a href="/Whole-Body-Weightloss">
+                <p>Whole Body Weightloss</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Body Fat Reduction.jpg"
-                  alt="Body Fat Reduction"
-                />
-              </figure>
-              <p>Body Fat Reduction</p>
+              <a href="/Advanced-Inchloss-Treatment">
+                <figure>
+                  <img
+                    src="assets/Weight/Advanced Inchloss Treatment.jpg"
+                    alt="Advanced Inchloss Treatment"
+                  />
+                </figure>
+              </a>
+              <a href="/Advanced-Inchloss-Treatment">
+                <p>Advanced Inchloss Treatment</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Non surgical Liposuction.jpg"
-                  alt="Non surgical Liposuction"
-                />
-              </figure>
-              <p>Non surgical Liposuction</p>
+              <a href="/Figure-Correction">
+                <figure>
+                  <img
+                    src="assets/Weight/Figure Correction.jpg"
+                    alt="Figure Correction"
+                  />
+                </figure>
+              </a>
+              <a href="/Figure-Correction">
+                <p>Figure Correction</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Cryolipolysis.jpg"
-                  alt="Cryolipolysis"
-                />
-              </figure>
-              <p>Cryolipolysis</p>
+              <a href="/Body-countouring">
+                <figure>
+                  <img
+                    src="assets/Weight/Body countouring.jpg"
+                    alt="Body countouring"
+                  />
+                </figure>
+              </a>
+              <a href="/Body-countouring">
+                <p>Body countouring</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img src="assets/Weight/Cryo Therapy.jpg" alt="Cryo Therapy" />
-              </figure>
-              <p>Cryo Therapy</p>
+              <a href="/Whole-Body-Therapy">
+                <figure>
+                  <img
+                    src="assets/Weight/Whole Body Therapy.jpg"
+                    alt="Whole Body Therapy"
+                  />
+                </figure>
+              </a>
+              <a href="/Whole-Body-Therapy">
+                <p>Whole Body Therapy</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Fat Freezing Technology.jpg"
-                  alt="Fat Freezing Technology"
-                />
-              </figure>
-              <p>Fat Freezing Technology</p>
+              <a href="/Fat-Freezing-Technology">
+                <figure>
+                  <img
+                    src="assets/Weight/Fat Freezing Technology.jpg"
+                    alt="Fat Freezing Technology"
+                  />
+                </figure>
+              </a>
+              <a href="/Fat-Freezing-Technology">
+                <p>Fat Freezing Technology</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Weight/Facial Fat Reduction.jpg"
-                  alt="Facial Fat Reduction"
-                />
-              </figure>
-              <p>Facial Fat Reduction</p>
+              <a href="/Facial-Fat-Reduction">
+                <figure>
+                  <img
+                    src="assets/Weight/Facial Fat Reduction.jpg"
+                    alt="Facial Fat Reduction"
+                  />
+                </figure>
+              </a>
+              <a href="/Facial-Fat-Reduction">
+                <p>Facial Fat Reduction</p>
+              </a>
             </article>
           </section>
         </section>
@@ -180,46 +227,66 @@ function Services() {
             ref={containerTwoRef}
           >
             <article>
-              <figure>
-                <img
-                  src="assets/Hair/Anti Hairloss Treatment.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Anti Hairloss Treatment</p>
+              <a href="/Anti-Hairloss-Treatment">
+                <figure>
+                  <img
+                    src="assets/Hair/Anti Hairloss Treatment.jpg"
+                    alt="Anti Hairloss Treatment"
+                  />
+                </figure>
+              </a>
+              <a href="/Anti-Hairloss-Treatment">
+                <p>Anti Hairloss Treatment</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Hair/Anti Dandruff Treatment.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Anti Dandruff Treatment</p>
+              <a href="/Anti-Dandruff-Treatment">
+                <figure>
+                  <img
+                    src="assets/Hair/Anti Dandruff Treatment.jpg"
+                    alt="Anti Dandruff Treatment"
+                  />
+                </figure>
+              </a>
+              <a href="/Anti-Dandruff-Treatment">
+                <p>Anti Dandruff Treatment</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img src="assets/Hair/Hair Regrowth.jpg" alt="Skin pic" />
-              </figure>
-              <p>Hair Regrowth</p>
+              <a href="/Hair-Regrowth">
+                <figure>
+                  <img src="assets/Hair/Hair Regrowth.jpg" alt="Hair Regrowth" />
+                </figure>
+              </a>
+              <a href="/Hair-Regrowth">
+                <p>Hair Regrowth</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Hair/Platelet Rich Plasma Thearpy.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Platelet Rich Plasma Thearpy</p>
+              <a href="/Platelet-Rich-Plasma-Thearpy">
+                <figure>
+                  <img
+                    src="assets/Hair/Platelet Rich Plasma Thearpy.jpg"
+                    alt="Platelet Rich Plasma Thearpy"
+                  />
+                </figure>
+              </a>
+              <a href="/Platelet-Rich-Plasma-Thearpy">
+                <p>Platelet Rich Plasma Thearpy</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/Hair/Hair Transplantation.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Hair Transplantation</p>
+              <a href="/Hair-Transplantation">
+                <figure>
+                  <img
+                    src="assets/Hair/Hair Transplantation.jpg"
+                    alt="Hair Transplantation"
+                  />
+                </figure>
+              </a>
+              <a href="/Hair-Transplantation">
+                <p>Hair Transplantation</p>
+              </a>
             </article>
           </section>
         </section>
@@ -240,75 +307,115 @@ function Services() {
             ref={containerThirdRef}
           >
             <article>
-              <a href="Skin-Tightening">
+              <a href="/Skin-Tightening">
                 <figure>
                   <img src="assets/skin/Skin Tightening.jpg" alt="Skin pic" />
                 </figure>
+              </a>
+              <a href="/Skin-Tightening">
                 <p>Skin Tightening</p>
               </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/skin/Anti Wrinkle Treatment.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Anti Wrinkle Treatment</p>
+              <a href="/Anti-Wrinkle-Treatment">
+                <figure>
+                  <img
+                    src="assets/skin/Anti Wrinkle Treatment.jpg"
+                    alt="Anti Wrinkle Treatment"
+                  />
+                </figure>
+              </a>
+              <a href="/Anti-Wrinkle-Treatment">
+                <p>Anti Wrinkle Treatment</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/skin/Anti Aging Treatment.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Anti Aging Treatment</p>
+              <a href="/Anti-Aging-Treatment">
+                <figure>
+                  <img
+                    src="assets/skin/Anti Aging Treatment.jpg"
+                    alt="Skin pic"
+                  />
+                </figure>
+              </a>
+              <a href="/Anti-Aging-Treatment">
+                <p>Anti Aging Treatment</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/skin/Advanced Facial Glow.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Advanced Facial Glow</p>
+              <a href="/Advanced-Facial-Glow">
+                <figure>
+                  <img
+                    src="assets/skin/Advanced Facial Glow.jpg"
+                    alt="Skin pic"
+                  />
+                </figure>
+              </a>
+              <a href="/Advanced-Facial-Glow">
+                <p>Advanced Facial Glow</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/skin/HydraFacial Treatment.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>HydraFacial Treatment</p>
+              <a href="/HydraFacial-Treatment">
+                <figure>
+                  <img
+                    src="assets/skin/HydraFacial Treatment.jpg"
+                    alt="Skin pic"
+                  />
+                </figure>
+              </a>
+              <a href="/HydraFacial-Treatment">
+                <p>HydraFacial Treatment</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img src="assets/skin/Permanent Eyebrows.jpg" alt="Skin pic" />
-              </figure>
-              <p>Permanent Eyebrows</p>
+              <a href="/Permanent-Eyebrows">
+                <figure>
+                  <img
+                    src="assets/skin/Permanent Eyebrows.jpg"
+                    alt="Skin pic"
+                  />
+                </figure>
+              </a>
+              <a href="/Permanent-Eyebrows">
+                <p>Permanent Eyebrows</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img
-                  src="assets/skin/Permanent Lip colouring.jpg"
-                  alt="Skin pic"
-                />
-              </figure>
-              <p>Permanent Lip colouring</p>
+              <a href="/Permanent-Lip-colouring">
+                <figure>
+                  <img
+                    src="assets/skin/Permanent Lip colouring.jpg"
+                    alt="Skin pic"
+                  />
+                </figure>
+              </a>
+              <a href="/Permanent-Lip-colouring">
+                <p>Permanent Lip colouring</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img src="assets/skin/Face lift.jpg" alt="Skin pic" />
-              </figure>
-              <p>Face lift</p>
+              <a href="/Face-lift">
+                <figure>
+                  <img src="assets/skin/Face lift.jpg" alt="Skin pic" />
+                </figure>
+              </a>
+              <a href="/Face-lift">
+                <p>Face lift</p>
+              </a>
             </article>
             <article>
-              <figure>
-                <img src="assets/skin/V shape Facial Lift.jpg" alt="Skin pic" />
-              </figure>
-              <p>V shape Facial Lift</p>
+              <a href="/V-shape-Facial-Lift">
+                <figure>
+                  <img
+                    src="assets/skin/V shape Facial Lift.jpg"
+                    alt="Skin pic"
+                  />
+                </figure>
+              </a>
+              <a href="/V-shape-Facial-Lift">
+                <p>V shape Facial Lift</p>
+              </a>
             </article>
           </section>
         </section>

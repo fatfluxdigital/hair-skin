@@ -39,7 +39,7 @@ function Navbar() {
         <div className="flex justifyContentBetween alignItemsCenter">
           <figure className="logo">
             <a href="/">
-              <img src="logo/logo.png" alt="logo" />
+              <img src="logo/logo.jpeg" alt="logo" />
             </a>
           </figure>
           <section className="flex-80">
@@ -69,16 +69,12 @@ function Navbar() {
                 </ul>
               </nav>
             </div>
-            <label className="bars" for="toggle">
-              <img src="icons/hamburger.svg" width="20px" />
-            </label>
             <input id="toggle" type="checkbox" />
-
             <div className="second__nav nav-bar">
-              <label className="cross__icon">
-                <img src="icons/cross.svg" alt="cross icon" width="20px"/>
+              <label className="bars cross__icon" for="toggle">
+                <img src="icons/cross.svg" alt="cross icon" width="20px" />
               </label>
-              <ul className="flex justifyContentBetween alignItemsCenter">
+              <ul className="flex justifyContentAround alignItemsCenter">
                 <a href="/">
                   <li>HOME</li>
                 </a>
@@ -101,9 +97,41 @@ function Navbar() {
                   <li>CUSTOMER STORIES</li>
                 </a>
               </ul>
+              <div className="phonenumber__mobile__noBorder">
+                <a href="tel:+919666564441">
+                  <li>Call us at +91 9666564441</li>
+                </a>
+              </div>
+              <div className="logos__nav">
+                <ul className="flex alignItemsCenter iconsGroup flexDirectionRow justifyContentCenter">
+                  <li>
+                    <img src="icons/facebook.svg" width="20" />
+                  </li>
+                  <li>
+                    <img src="icons/instagram.svg" width="20" />
+                  </li>
+                  <li>
+                    <img src="icons/twitter.svg" width="20" />
+                  </li>
+                  <li>
+                    <img src="icons/youtube.svg" width="20" />
+                  </li>
+                </ul>
+              </div>
             </div>
+            <label className="bars" for="toggle">
+              <img src="icons/hamburger.svg" width="20px" />
+            </label>
           </section>
         </div>
+        <section className="phonenumber__mobile">
+          <div className="phonenumber__mobile__container">
+            <img src="icons/phone.svg" width="10" />
+            <a href="tel:+919666564441">
+              <li>Call us at +91 9666564441</li>
+            </a>
+          </div>
+        </section>
       </div>
     </header>
   );

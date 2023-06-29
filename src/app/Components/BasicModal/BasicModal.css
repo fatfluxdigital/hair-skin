@@ -1,0 +1,19 @@
+.modal__width {
+  width: 50%;
+}
+.bmi__styles{
+  border: 2px solid var(--primary);
+  padding: 0.5rem ;
+  font-size: 1rem;
+  background-color: var(--secondary);
+  color: var(--primary);
+  width: 6rem;
+}
+.bmi__styles p{
+  margin-left: 0.5rem;
+}
+@media screen and (max-width: 540px) {
+  .modal__width {
+    width: 68%;
+  }
+}

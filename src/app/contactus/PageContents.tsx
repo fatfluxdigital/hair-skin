@@ -15,7 +15,6 @@ function PageContents() {
       <AboutHeroSection imageUrl="hero/contactus.jpg"/>
       <Locations/>
       <ContactusForm/>
-      <AboutUs />
       <Footer />
     </section>
   );

@@ -32,7 +32,7 @@ function Footer() {
                   <a href="/Non-surgical-Liposuction">
                     <li>Non surgical Liposuction</li>
                   </a>
-                  <a href="/NoCryolipolysis">
+                  <a href="/Cryolipolysis">
                     <li>Cryolipolysis</li>
                   </a>
                   <a href="/Cryo-Therapy">
@@ -49,19 +49,19 @@ function Footer() {
               <nav>
                 <ul>
                   <li className="heading">Hair</li>
-                  <a href="/Non-surgical-Liposuction">
+                  <a href="/Anti-Hairloss-Treatment">
                     <li>Anti Hairloss Treatment</li>
                   </a>
-                  <a href="/Non-surgical-Liposuction">
+                  <a href="/Anti-Dandruff-Treatment">
                     <li>Anti Dandruff Treatment</li>
                   </a>
-                  <a href="/Non-surgical-Liposuction">
+                  <a href="/Hair-Regrowth">
                     <li>Hair Regrowth</li>
                   </a>
-                  <a href="/Non-surgical-Liposuction">
+                  <a href="/Platelet-Rich-Plasma-Thearpy">
                     <li>Platelet Rich Plasma Thearpy</li>
                   </a>
-                  <a href="/Non-surgical-Liposuction">
+                  <a href="/Hair-Transplantation">
                     <li>Hair Transplantation</li>
                   </a>
                 </ul>
@@ -108,7 +108,7 @@ function Footer() {
                   <a href="/contactus">
                     <li>Contact Us</li>
                   </a>
-                  <a href="/contactus">
+                  <a href="#bookAnAppointment">
                     <li>Book An Appointment</li>
                   </a>
                 </ul>
@@ -142,7 +142,7 @@ function Footer() {
         </div>
         <div className="footer__second__wrapper">
           <figure className="image-container">
-            <img src="logo/logo.png" alt="fat flux logo" />
+            <img src="logo/logo.jpeg" alt="fat flux logo" />
           </figure>
           <p>Copyright © 2022 Fat Flux, All rights reserved.</p>
           <p>

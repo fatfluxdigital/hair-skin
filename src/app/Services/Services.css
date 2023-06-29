@@ -11,8 +11,8 @@
 .services__section figure {
   border: 3px solid #3f7292ae;
   background-color: #3f7292ae;
-  width: 150px;
-  height: 200px;
+  width: 10rem;
+  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,10 +51,10 @@
   color: var(--secondary);
 }
 .overflow__services__section{
-    overflow: scroll;
+  overflow-x: scroll;
 }
 .overflow__services__section article{
-    margin: 1rem 2rem;
+  margin: 1rem 2rem;
 }
 
 .scroll__arrows button {
@@ -65,36 +65,36 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.scroll__arrows button:nth-child(2){
-  margin-left:0.5rem;
+.scroll__arrows button:nth-child(2) {
+  margin-left: 0.5rem;
 }
 .scroll__arrows button:hover {
   background-color: var(--secondary-fade-out);
 }
-.services__header{
+.services__header {
   display: flex;
   justify-content: space-between;
 }
-.scroll__arrows{
+.scroll__arrows {
   display: flex;
-  height:3rem;
+  height: 3rem;
 }
-.services__main__headings{
+.services__main__headings {
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 2rem;
   color: var(--secondary);
 }
-.second__service{
+.second__service {
   margin: 3rem 0;
 }
-.services__masked{
+.services__masked {
   display: flex;
   flex-direction: column;
 }
-.services__section{
-  background-color: #ECEFF0;
+.services__section {
+  background-color: #eceff0;
 }
 /* media queries */
 @media screen and (max-width: 540px) {
@@ -102,7 +102,7 @@
     width: 500px;
   }
 }
-@media screen and (max-width:440px){
+@media screen and (max-width: 440px) {
   .container {
     width: 400px;
   }
@@ -115,7 +115,7 @@
     cursor: pointer;
     width: 2rem;
   }
-  .services__masked:nth-child(2){
+  .services__masked:nth-child(2) {
     margin: 5rem 0;
   }
 }

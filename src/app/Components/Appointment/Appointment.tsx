@@ -4,7 +4,7 @@ import "./Appointment.css";
 
 export default function Appointment() {
   return (
-    <section className="appointment__section">
+    <section id="bookAnAppointment" className="appointment__section">
       <div className="large__container">
         <h2 className="appointment__heading">Book An Appointment</h2>
         <div className="appointment__form">

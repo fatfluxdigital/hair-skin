@@ -6,7 +6,7 @@
     border: 1px solid var(--light-black-text);
 }
 .location__wrapper article{
-    flex: 0 1 25%;
+    flex: 0 1 33%;
     color:var(--secondary);
     font-size:0.8rem;
     padding:2rem;
@@ -27,16 +27,16 @@
     height: 8rem;
 }
 @media screen and (max-width: 440px) {
-    .location__wrapper{
+    /* .location__wrapper{
       flex-direction: column;
-    }
+    } */
     .container {
       max-width: 360px;
     }
-    .location__wrapper article{
+    /* .location__wrapper article{
         flex: 0 1 25%;
-    }
-    .line{
+    } */
+    /* .line{
         transform: rotate(90deg);
-    }
+    } */
   }
