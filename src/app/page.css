@@ -364,7 +364,7 @@ a {
 
 .slider {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   overflow: hidden;
   position: relative;
 }
@@ -374,7 +374,7 @@ a {
   position: relative;
 }
 .slider .wrapper {
-  height: 50vh;
+  height: 60vh;
   transition: 0.5s all linear;
   will-change: transform;
 }
@@ -463,7 +463,7 @@ a {
 
 .slider .each-slide {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   float: left;
   line-height: 50vh;
   font-size: 40vh;
