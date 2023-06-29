@@ -10,7 +10,7 @@
   width: 6rem;
 }
 .bmi__styles p{
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 @media screen and (max-width: 540px) {
   .modal__width {
