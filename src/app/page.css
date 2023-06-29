@@ -517,6 +517,43 @@ figure img {
   display: flex;
   align-items: center;
 }
+.makeAnAppointment{
+  position:fixed;
+  bottom:8rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  width: 8rem;
+  text-align: center;
+  border: 2px solid var(--secondary);
+  z-index: 2000;
+}
+.whatsAppLogo{
+  position: fixed;
+  bottom:8rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  width: 5rem;
+  text-align: center;
+  border: 2px solid var(--secondary);
+  z-index: 2000;
+}
+.whatsAppLogo img{
+  width:2rem;
+}
 /* media queries */
 @media screen and (max-width: 1200px) {
 }

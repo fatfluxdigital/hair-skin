@@ -8,11 +8,13 @@ import Services from "../Services/Services";
 import WhyFatFlex from "../Components/WhyFatFlex/WhyFatFlex";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import "../page.css";
+import Appointment from "../Components/Appointment/Appointment";
 function PageContents() {
   return (
     <>
       <Navbar />
       <AboutHeroSection imageUrl="hero/Hair/Anti Dandruff Treatment.jpg"/>
+      <Appointment />
       <ArticleComponent/>
       <span className=""></span>
       <Services/>
