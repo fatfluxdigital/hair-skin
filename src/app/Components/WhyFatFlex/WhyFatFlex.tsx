@@ -12,7 +12,7 @@ function WhyFatFlex() {
               <figure>
                 <img src="icons/achievement.svg" alt="achievement logo" />
               </figure>
-              <p>20 Years of Expertise</p>
+              <p>Experienced Doctors</p>
             </article>
             <article className="fatflex__article">
               <figure>
@@ -40,7 +40,7 @@ function WhyFatFlex() {
               <figure>
                 <img src="icons/users.svg" alt="users logo" />
               </figure>
-              <p>Lakhs of Satisfied Clients</p>
+              <p>Client Satisfaction</p>
             </article>
             <article className="fatflex__article">
               <figure>
