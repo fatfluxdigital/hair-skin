@@ -10,38 +10,40 @@ function Testimonials() {
           <section className="testimonial__section">
             <article className="testimonial-card">
               <div className="text">
-                Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum
-                ipsum, laudantium minima aliquam porro? Iste, Et, esta ah{" "}
+                Fat Flux and Dr. Keerthi made my weight loss journey
+                comfortable, safe, and life-transforming. Thank you!{" "}
                 <i className="fas fa-quote-right quote"></i>
               </div>
 
               <div className="footer">
                 <div className="image"></div>
-                <h3 className="person">Jane Doe</h3>
+                <h3 className="person">Ashwani</h3>
               </div>
             </article>
             <article className="testimonial-card">
               <div className="text">
-                Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum
-                ipsum, laudantium minima aliquam porro? Iste, Et, esta ah{" "}
-                <i className="fas fa-quote-right quote"></i>
+                Fat Flux's exceptional service, effective treatment, and caring
+                staff helped me achieve outstanding results, losing 10kgs in
+                just 8 sessions. Thank you, Fat Flux, for transforming my weight
+                loss journey! <i className="fas fa-quote-right quote"></i>
               </div>
 
               <div className="footer">
                 <div className="image"></div>
-                <h3 className="person">Jane Doe</h3>
+                <h3 className="person">Shiva Mudiraj</h3>
               </div>
             </article>
             <article className="testimonial-card">
               <div className="text">
-                Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum
-                ipsum, laudantium minima aliquam porro? Iste, Et, esta ah{" "}
+                Thank you, Fat Flux and Dr. Keerthi, for being the best
+                consultants. I'm extremely happy with the treatment and grateful
+                for the fantastic results{" "}
                 <i className="fas fa-quote-right quote"></i>
               </div>
 
               <div className="footer">
                 <div className="image"></div>
-                <h3 className="person">Jane Doe</h3>
+                <h3 className="person">Durga Prasad</h3>
               </div>
             </article>
           </section>
