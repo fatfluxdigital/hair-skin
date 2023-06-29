@@ -4,6 +4,15 @@
     align-items: center;
     text-align: center;
     border: 1px solid var(--light-black-text);
+    margin-top: 2rem;
+}
+.location__wrapper__section{
+    flex-direction: column;
+    width: 100%;
+    display: flex; /* Use flexbox to center the map */
+    justify-content: center;
+    align-items: center;
+    margin:1rem 0 2rem 0;
 }
 .location__wrapper article{
     flex: 0 1 33%;
