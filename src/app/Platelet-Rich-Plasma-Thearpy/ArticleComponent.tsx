@@ -108,8 +108,8 @@ function ArticleComponent() {
           </article>
           <figure className="advanced__facial">
             <img
-              src="assets/skin/Advanced Facial Glow.jpg"
-              alt="facial glow image"
+              src="/assets/Hair/Platelet Rich Plasma Thearpy.jpg"
+              alt="Platelet rich plasma thearpy"
             />
           </figure>
         </section>

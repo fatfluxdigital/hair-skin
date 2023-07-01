@@ -29,46 +29,46 @@ function ArticleComponent() {
               Why Choose Our Hair Transplant Treatment Center?
             </h3>
             <ul className="clinic-feature-list">
-              <li>
+              <p className="clinic-feature-description">
                 Expert Surgeons: Our team consists of experienced and highly
                 skilled hair transplant surgeons who have successfully performed
                 numerous procedures. Trust their expertise to deliver
                 exceptional results.
-              </li>
-              <li>
+              </p>
+              <p className="clinic-feature-description">
                 Personalized Consultation: We understand that each individual's
                 hair loss concerns and goals are unique. During your
                 consultation, our experts will assess your condition, discuss
                 your desired outcomes, and create a personalized treatment plan
                 tailored to your specific needs.
-              </li>
-              <li>
+              </p>
+              <p className="clinic-feature-description">
                 Advanced Techniques: We utilize advanced hair transplant
                 techniques to provide optimal results. Our center offers both
                 FUE and FUT procedures, ensuring the most suitable technique is
                 chosen for your individual situation.
-              </li>
-              <li>
+              </p>
+              <p className="clinic-feature-description">
                 Natural-Looking Results: Our goal is to provide you with
                 natural-looking hair that seamlessly integrates with your
                 existing hairline and facial features. Our surgeons meticulously
                 plan the placement and angle of each transplanted hair follicle,
                 ensuring a result that looks and feels completely natural.
-              </li>
-              <li>
+              </p>
+              <p className="clinic-feature-description">
                 Comfort and Care: We prioritize your comfort and well-being
                 throughout the entire hair transplant process. Our clinic
                 provides a comfortable and caring environment, and our
                 supportive staff will be with you every step of the way.
-              </li>
-              <li>
+              </p>
+              <p className="clinic-feature-description">
                 Comprehensive Aftercare: Our commitment to your satisfaction
                 doesn't end with the procedure. We provide detailed aftercare
                 instructions and follow-up appointments to monitor your progress
                 and ensure optimal healing and hair growth. Our team is always
                 available to address any concerns or questions you may have
                 during your recovery period.
-              </li>
+              </p>
             </ul>
 
             <p className="clinic-feature-description">
@@ -90,8 +90,8 @@ function ArticleComponent() {
           </article>
           <figure className="advanced__facial">
             <img
-              src="assets/skin/Advanced Facial Glow.jpg"
-              alt="facial glow image"
+              src="/assets/Hair/Hair Transplantation.jpg"
+              alt="Hair transplantation image"
             />
           </figure>
         </section>
