@@ -35,6 +35,9 @@
     width:2px;
     height: 8rem;
 }
+.location__article a{
+    text-decoration: underline;
+}
 @media screen and (max-width: 440px) {
     /* .location__wrapper{
       flex-direction: column;

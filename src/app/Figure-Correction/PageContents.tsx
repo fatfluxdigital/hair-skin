@@ -9,6 +9,7 @@ import WhyFatFlex from "../Components/WhyFatFlex/WhyFatFlex";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import "../page.css";
 import Appointment from "../Components/Appointment/Appointment";
+import BasicModal from "../Components/BasicModal/BasicModal";
 function PageContents() {
   return (
     <>
@@ -22,6 +23,17 @@ function PageContents() {
       <WhyFatFlex/>
       <Testimonials/>
       <Footer />
+      <BasicModal />
+      <a href="#bookAnAppointment">
+        <div className="makeAnAppointment">
+          <p>Make An Appointment</p>
+        </div>
+      </a>
+      <a href="https://wa.me/919666564441?text=Can%20I%20book%20the%20appointment%20now%20?">
+        <figure className="whatsAppLogo">
+          <img src="/icons/whatsapp.svg" alt="whatsapp icon" />
+        </figure>
+      </a>
     </>
   );
 }

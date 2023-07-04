@@ -54,7 +54,7 @@ export default function BMICalculator(){
 
   return(
     <div className="app">
-      <h1>BMI Calculator</h1>
+      <h1 style={{marginTop:"1rem"}}>BMI Calculator</h1>
       <span>Let's calculate your Body Mass Index. <br></br> Type the values below</span>
       
       <div className="area-input">

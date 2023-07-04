@@ -28,9 +28,11 @@ function page() {
           <p>Make An Appointment</p>
         </div>
       </a>
-      <figure className="whatsAppLogo">
-        <img src="/icons/whatsapp.svg" alt="whatsapp icon" />
-      </figure>
+      <a href="https://wa.me/919666564441?text=Can%20I%20book%20the%20appointment%20now%20?">
+        <figure className="whatsAppLogo">
+          <img src="/icons/whatsapp.svg" alt="whatsapp icon" />
+        </figure>
+      </a>
     </>
   );
 }

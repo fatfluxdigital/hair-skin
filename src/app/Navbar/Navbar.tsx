@@ -27,10 +27,12 @@ const skinOptions = [
   "Anti-Aging-Treatment",
   "Advanced-Facial-Glow",
   "HydraFacial-Treatment",
-  "Permanent-Eyebrows",
-  "Permanent-Lip-colouring",
   "Face-lift",
   "V-shape-Facial-Lift",
+];
+const permanentMakeupOptions = [
+  "Permanent-Eyebrows",
+  "Permanent-Lip-colouring",
 ];
 function Navbar() {
   return (
@@ -74,7 +76,7 @@ function Navbar() {
               <label className="bars cross__icon" for="toggle">
                 <img src="icons/cross.svg" alt="cross icon" width="20px" />
               </label>
-              <ul className="flex justifyContentAround alignItemsCenter">
+              <ul className="flex justifyContentBetween alignItemsCenter">
                 <a href="/">
                   <li>HOME</li>
                 </a>
@@ -89,6 +91,9 @@ function Navbar() {
                 </li>
                 <li>
                   <Dropdown title="HAIR" options={hairOptions} />
+                </li>
+                <li>
+                  <Dropdown title="PERMANENT MAKEUP" options={permanentMakeupOptions} />
                 </li>
                 <a href="/contactus">
                   <li>CONTACT US</li>

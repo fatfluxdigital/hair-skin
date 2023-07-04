@@ -41,7 +41,7 @@ function Locations() {
               </p>
             </article>
             <div className="line"></div>
-            <article>
+            <article className="location__article">
               <figure>
                 <img width="20" src="icons/phone.svg" alt="phone icon" />
               </figure>

@@ -39,7 +39,6 @@
   /* border-bottom: 1px solid #eee; */
   cursor: pointer;
   list-style: none;
-  padding: 1rem 0;
   text-align: center;
 }
 
@@ -59,11 +58,13 @@
   background: #fff;
 }
 .absolute__dropdown li{
+  padding:1rem 0rem;
   font-size: 0.8rem;
   border-bottom: 1px solid var(--light-black-text);
 }
 .logo__display__mobile{
   display: none;
+  /* padding: 0; */
 }
 
 
@@ -72,9 +73,12 @@
     display: none;
   }
   .logo__display__mobile{
-    display: block;
+    display: inline-block;
   }
   .dropdown__toggle img{
-    width: 1.5rem;
+    /* width: 1.5rem; */
+  }
+  .dropdown{
+    margin: 1.5rem 0;
   }
 }

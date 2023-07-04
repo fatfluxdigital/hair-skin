@@ -9,31 +9,18 @@ function AboutUs() {
         <section className="aboutus__crux">
           <article>
             <p>
-              Welcome to Fatflux Clinic, your destination for transformative
-              cosmetic treatments and rejuvenation. We are proud to be a leading
-              provider of advanced cosmetic procedures, helping our clients
-              enhance their natural beauty and achieve their aesthetic goals.
+              Welcome to Fatflux Clinic, your destination for the healthy
+              transformative cosmetic treatments and rejuvenation.
             </p>
             <p>
-              At Fatflux Clinic, we understand that your appearance plays a
-              significant role in your self-confidence and overall well-being.
-              That's why we offer a comprehensive range of state-of-the-art
-              treatments and procedures designed to address your unique needs.
+              At Fatflux Clinic, we understand your obesity and cosmetic concern
+              that plays a significant role in your self-confidence and overall
+              well-being.
             </p>
             <p>
-              Our clinic is home to a team of highly skilled and experienced
-              cosmetic specialists who are dedicated to providing exceptional
-              care and delivering outstanding results. With their expertise and
-              artistic vision, they will work closely with you to create a
-              personalized treatment plan tailored to your desired outcomes.
-            </p>
-            <p>
-              We prioritize safety and adhere to the highest industry standards,
-              using advanced technology and proven techniques to ensure your
-              comfort and satisfaction throughout your journey with us. Whether
-              you're seeking facial rejuvenation, body contouring, or
-              non-surgical treatments, we offer a wide range of options to help
-              you achieve natural-looking results.
+              Our team of highly skilled and experienced Nutritionists and
+              cosmetologists designs state-of-the-art treatments and procedures
+              to address your unique needs.
             </p>
             <p>
               At Fatflux Clinic, we believe in building lasting relationships
@@ -44,11 +31,8 @@ function AboutUs() {
               your expectations at every step.
             </p>
             <p>
-              Embark on your aesthetic journey with us, and let us help you
-              enhance your beauty and boost your self-confidence. Schedule a
-              consultation with our knowledgeable team today, and together,
-              we'll create a treatment plan that brings out the best version of
-              you.
+              Embark on your healthy weightloss and aesthetic journey with us,
+              and let us help you to enhance your health and beauty.
             </p>
           </article>
           <figure>

@@ -68,4 +68,7 @@
     margin-top: 3rem;
     font-size: 1.5rem;
   }
+  .combined__fatflex .fatflex__article:nth-child(even) {
+    margin-top: 0rem;
+  }
 }

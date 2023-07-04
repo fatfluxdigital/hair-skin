@@ -27,7 +27,6 @@
 }
 .services__section section {
   display: flex;
-  justify-content: space-around;
 }
 .services__section article {
   width: 200px;

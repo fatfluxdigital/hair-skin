@@ -67,9 +67,9 @@ const Dropdown: React.FC<DropdownProps> = (props) => {
           <img src="icons/arrowUp.svg" alt="arrow up" width="15px" className="logo__display__web" />
         )}
         {open ? (
-          <img src="icons/arrowDownWhite.svg" alt="arrow down" width="15px" />
+          <img src="icons/arrowDownWhite.svg" alt="arrow down" width="10px" className="logo__display__mobile"/>
         ) : (
-          <img src="icons/arrowUpWhite.svg" alt="arrow up" width="15px" />
+          <img src="icons/arrowUpWhite.svg" alt="arrow up" width="10px" className="logo__display__mobile"/>
         )}
       </div>
       <ul

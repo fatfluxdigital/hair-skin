@@ -24,7 +24,7 @@ export default function BasicModal() {
   return (
     <div>
       <div className="bmi__styles bmi__calc" onClick={handleOpen}>
-        <img src="/icons/bmi.svg" alt="bmi calculator" width="20px"/> <p>BMI</p>
+        <img src="/icons/bmi.svg" alt="bmi calculator" width="20px"/> <p>BMI CALCULATOR</p>
       </div>
       <Modal
         open={open}

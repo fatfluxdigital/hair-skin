@@ -7,7 +7,7 @@
   font-size: 1rem;
   background-color: var(--secondary);
   color: var(--primary);
-  width: 6rem;
+  width: 12.5rem;
 }
 .bmi__styles p{
   margin-left: 1rem;
@@ -15,5 +15,8 @@
 @media screen and (max-width: 540px) {
   .modal__width {
     width: 68%;
+  }
+  .bmi__styles{
+    width: 14rem;
   }
 }
